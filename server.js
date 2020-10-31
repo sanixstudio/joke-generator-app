@@ -2,10 +2,10 @@ const express = require('express');
 const app = express();
 
 
-/* middleware */
-const reload = require('./middleware/reload.js');
+/* Middleware */
+const liveReload = require('./middleware/reload.js');
 const morgan = require('morgan');
-app.use( reload() )
+app.use( liveReload() )
 app.use( morgan('dev') )
 app.use( express.json() )
 app.use( express.urlencoded({extended : true}) )
