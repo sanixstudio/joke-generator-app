@@ -3,11 +3,12 @@
   "version": "1.0.0",
   "description": "",
   "main": "server.js",
-  "directories": {
-    "doc": "docs"
-  },
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "open-cli http://localhost:5050 && nodemon ./server.js --ignore ./views",
+    "repo": "open-cli https://github.com/awwmicky/joke-generator-app",
+    "proj": "open-cli https://github.com/awwmicky/joke-generator-app/projects",
+    "live": "echo \"work in progress\""
   },
   "repository": {
     "type": "git",
@@ -22,10 +23,13 @@
   "homepage": "https://github.com/awwmicky/joke-generator-app#readme",
   "dependencies": {
     "axios": "^0.21.0",
+    "connect-livereload": "^0.6.1",
     "express": "^4.17.1",
+    "livereload": "^0.9.1",
     "morgan": "^1.10.0"
   },
   "devDependencies": {
-    "nodemon": "^2.0.6"
+    "nodemon": "^2.0.6",
+    "open-cli": "^6.0.1"
   }
 }
