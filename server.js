@@ -3,10 +3,10 @@ const app = express();
 
 
 /* Middleware */
-const liveReload = require('./middleware/reload.js');
-const morgan = require('morgan');
-app.use( liveReload() )
-app.use( morgan('dev') )
+const reloader = require("connect-livereload");
+const logger = require('morgan');
+app.use( reloader() )
+app.use( logger('dev') )
 app.use( express.json() )
 app.use( express.urlencoded({extended : true}) )
 app.use( express.static('./views/') )

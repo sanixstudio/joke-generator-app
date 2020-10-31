@@ -1,5 +1,5 @@
 const liveReload = require('livereload');
-const connectLiveReload = require("connect-livereload");
+// const connectLiveReload = require("connect-livereload");
 const liveReloadServer = liveReload.createServer();
 
 liveReloadServer.watch(__dirname + "/views/")
