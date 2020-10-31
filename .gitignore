@@ -1,7 +1,8 @@
 /node_modules
 package-lock.json
+
 .DS_Store
 /.vscode
 .env
 
-/other
+/test
