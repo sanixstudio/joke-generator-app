@@ -1,26 +1,34 @@
+[**← Go Back**](../README.md)
+
+---
+
 # Notes & Log
 
-## VC setup
-- view folder / controller folder / node setup
-- server.js setup / routes.js setup (api & client)
-- npm installs / html cdns
+## General Setup
+- open considerations
+    - views folder / controllers folder / node setup
+    - server.js setup / routes.js setup (api & client)
+    - npm installs / html cdns
+- main workflow
+    - html & css / back-end logic / front-end logic
+    - project tree & folder structure
 
-
-## Roles
-- setup HTML & CDN links:
-    - html connection: CSS, JS, CDN
-    - `axios` `materialize`
+## Setup Architecture
+- setup HTML:
+    - html connection: CSS, JS
+    - CDN: `axios` / `materialize`
 - setup node: 
     - `npm init -y`
-    - `npm i axios express morgan`
+    - `npm install axios express morgan`
+    - `npm install -D nodemon`
 - setup folders:
     - folders: 
-        - `/views` - html, css, js
-        - `controllers` - `client-route.js` / `api-route.js`
+        - `/views` - html / css / js
+        - `/controllers` / `client-route.js` / `api-route.js`
     - files: `server.js`
 
-## workflow
-- html/css / back-end logic / front-end logic
-- project tree & folder structure
-
 ## The Process
+
+---
+
+[**← Go Back**](../README.md)
