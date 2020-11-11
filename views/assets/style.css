@@ -2,6 +2,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
+    transition: ease-in .2s;
 }
 
 h1 {
@@ -49,8 +50,13 @@ main {
     cursor: pointer;
     align-items: center;
     justify-content: center;
+    transition: background .2s;
 }
 
 .controls:first-child {
     transform: rotate(180deg);
+}
+
+.controls:not(:nth-child(2)):hover {
+    background-color: #0ea091 !important;
 }
