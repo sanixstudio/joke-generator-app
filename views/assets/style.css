@@ -1,1 +1,56 @@
-h1 { font-size: 5rem; }
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,900;1,500&display=swap");
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+h1,
+span {
+    text-transform: uppercase;
+}
+
+header {
+    padding: 3em 0;
+}
+
+header h1 {
+    margin: 0.3em 0 0 0;
+}
+
+.header-text span {
+    font-size: 24px;
+    padding: 0 1.1em;
+    margin-bottom: 1.5em;
+    display: inline-block;
+    letter-spacing: 0.75em;
+    border-bottom: 1px solid #009688;
+}
+
+main {
+    width: 100%;
+    display: flex;
+    padding: 1em 0;
+    font-size: 1.5em;
+    min-height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls {
+    height: 50px;
+    display: flex;
+    color: #fff;
+    padding: 2em 0;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+}
+
+.controls:first-child {
+    transform: rotate(180deg);
+}

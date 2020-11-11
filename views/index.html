@@ -8,7 +8,7 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, Materialize, Node, Express, Axios, API" />
     <meta name="description"
         content="A joke generator web application that pops out random jokes. It gets you bursting into tears! 😶 🤓 😭" />
-    <meta name="author" content="Michael F. Alvarez, Herman Liu, Adnan Diaz" />
+    <meta name="author" content="Michael F. Alvarez, Herman Liu, Adnan Niaz" />
     <!-- Favicon -->
     <meta name="msapplication-TileColor" content="#000000" />
     <meta name="msapplication-TileImage" content="./assets/images/favicon.png" />
@@ -25,15 +25,54 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css"
         integrity="sha512-UJfAaOlIRtdR+0P6C3KUoTDAxVTuy3lnSXLyLKlHYJlcSU8Juge/mjeaxDNMlw9LgeIotgz5FP8eUQPhX1q10A=="
         crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- CSS -->
     <link rel="stylesheet" href="./assets/style.css" />
 </head>
 
 <body>
-    <div>
-        <h2>WAZZZZZZZZuP</h2>
-        <h1>this is project stuff</h1>
-        <h1>Adi's new Changes</h1>
+    <header class="container">
+        <div class="row center">
+            <div class="col s12 m12"><img src="./assets/images/joke.png" alt=""></div>
+            <div class="col s12 m12 header-text">
+                <h1 class="teal-text">random jokes</h1>
+                <span class="teal-text">generator</span>
+            </div>
+            <div class="col s12 m12">
+                <div class="switch">
+                    <label>
+                        Light
+                        <input type="checkbox">
+                        <span class="lever"></span>
+                        Dark
+                    </label>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main class="container teal white-text z-depth-4">
+        <div class="row center">
+            <div class="col m12 display">
+                <p>Why did the chicken crossed the road?</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- controls -->
+    <div class="container z-depth-5">
+        <div class="row">
+            <div class="col s4 m4 controls teal accent-4 center">
+                <i class="material-icons">send</i>
+            </div>
+            <div class="col s4 m4 controls teal accent-4 center">
+                <button id="submit" class="waves-effect waves-light btn">Reveal</button>
+            </div>
+            <div class="col s4 m4 controls teal accent-4 center">
+                <i class="material-icons">send</i>
+            </div>
+        </div>
     </div>
 <!--  -->
     <!-- Axios -->
