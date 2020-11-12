@@ -42,7 +42,7 @@
                 <div class="switch">
                     <label>
                         Light
-                        <input type="checkbox">
+                        <input type="checkbox" id="switchBtn">
                         <span class="lever"></span>
                         Dark
                     </label>
@@ -74,13 +74,20 @@
             </div>
         </div>
     </div>
-<!--  -->
+    <!--  -->
     <!-- Axios -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/axios/0.21.0/axios.min.js"
         integrity="sha512-DZqqY3PiOvTP9HkjIWgjO6ouCbq+dxqWoJZ/Q+zPYNHmlnI2dQnbJ5bxAHpAMw+LXRm4D72EIRXzvcHQtE8/VQ=="
         crossorigin="anonymous"></script>
     <!-- JS -->
     <script src="./assets/app.js"></script>
+    <script>
+        const switchBtn = document.querySelector('#switchBtn')
+        switchBtn.addEventListener('click', () => {
+            switchBtn.checked ? document.body.style.backgroundColor = "#212121" :
+                document.body.style.backgroundColor = "#fff"
+        })
+    </script>
 </body>
 
 </html>
