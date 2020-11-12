@@ -9,12 +9,12 @@ app.use( reloader() )
 app.use( logger('dev') )
 app.use( express.json() )
 app.use( express.urlencoded({extended : true}) )
-app.use( express.static('./views/') )
+app.use( express.static('./public/') )
 
 
 /* Paths/Routes */
-const apiRoutes = require('./controllers/api-routes.js');
-const clientRoutes = require('./controllers/client-routes.js');
+const apiRoutes = require('./routers/api-route.js');
+const clientRoutes = require('./routers/client-route.js');
 app.use('/api', apiRoutes)
 app.use('/', clientRoutes)
 
