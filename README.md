@@ -13,6 +13,10 @@ Simple joke making application created with Node.js & Express.js. It will demons
 [ **Adnan Niaz** ](https://www.linkedin.com/in/adnanniaz77/)
 
 
+## Requirement
+
+Node / NPM / Express
+
 ## Setup / Install
 1. clone repo
 ```bash
