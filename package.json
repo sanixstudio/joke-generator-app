@@ -5,6 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
+    "dev:test": "nodemon server.js",
     "dev": "open-cli http://localhost:5050 && nodemon ./server.js --ignore ./views",
     "repo": "open-cli https://github.com/awwmicky/joke-generator-app",
     "proj": "open-cli https://github.com/awwmicky/joke-generator-app/projects",

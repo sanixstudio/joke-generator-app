@@ -9,8 +9,8 @@ Simple joke making application created with Node.js & Express.js. It will demons
 ## Collaborators
 
 [ **Michael F. Alvarez** ](https://www.linkedin.com/in/awwmicky/) |
- [ **Herman Liu** ](https://www.linkedin.com/in/hermanliu168/) |
- [ **Adnan Niaz** ](https://www.linkedin.com/in/adnanniaz77/)
+[ **Herman Liu** ](https://www.linkedin.com/in/hermanliu168/) |
+[ **Adnan Niaz** ](https://www.linkedin.com/in/adnanniaz77/)
 
 
 ## Setup / Install
