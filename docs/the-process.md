@@ -2,7 +2,7 @@
 
 ---
 
-# Notes & Log
+# Brainstorm Notes
 
 ## General Setup
 - open considerations
@@ -23,8 +23,8 @@
     - `npm install -D nodemon`
 - setup folders:
     - folders: 
-        - `/views` - html / css / js
-        - `/controllers` / `client-route.js` / `api-route.js`
+        - `/public` - html / css / js
+        - `/routes` / `client-route.js` / `api-route.js`
     - files: `server.js`
 
 ## The Process
