@@ -6,7 +6,7 @@
 
 ## General Setup
 - open considerations
-    - views folder / controllers folder / node setup
+    - public folder / routes folder / node setup
     - server.js setup / routes.js setup (api & client)
     - npm installs / html cdns
 - main workflow
@@ -15,17 +15,17 @@
 
 ## Setup Architecture
 - setup HTML:
-    - html connection: CSS, JS
+    - connection: CSS, JavaScript
     - CDN: `axios` / `materialize`
 - setup node: 
     - `npm init -y`
-    - `npm install axios express morgan`
+    - `npm install axios express`
     - `npm install -D nodemon`
-- setup folders:
+- setup structure:
     - folders: 
         - `/public` - html / css / js
-        - `/routes` / `client-route.js` / `api-route.js`
-    - files: `server.js`
+        - `/routes` - `client-route.js` / `api-route.js`
+    - file: `server.js`
 
 ## The Process
 

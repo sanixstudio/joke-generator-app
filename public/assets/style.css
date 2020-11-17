@@ -60,3 +60,7 @@ main {
 .controls:not(:nth-child(2)):hover {
     background-color: #0ea091 !important;
 }
+
+.displayNone {
+    display: none;
+}

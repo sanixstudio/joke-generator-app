@@ -13,8 +13,8 @@ app.use( express.static('./public/') )
 
 
 /* Paths/Routes */
-const apiRoutes = require('./routers/api-route.js');
-const clientRoutes = require('./routers/client-route.js');
+const apiRoutes = require('./routes/api-route.js');
+const clientRoutes = require('./routes/client-route.js');
 app.use('/api', apiRoutes)
 app.use('/', clientRoutes)
 

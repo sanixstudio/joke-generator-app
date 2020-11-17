@@ -13,7 +13,7 @@ Simple joke making application created with Node.js & Express.js. It will demons
 [ **Adnan Niaz** ](https://www.linkedin.com/in/adnanniaz77/)
 
 
-## Requirement
+## Requirements
 
 Node / NPM / Express
 
