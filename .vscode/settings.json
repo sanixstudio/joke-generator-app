@@ -10,5 +10,6 @@
     "eslint.validate": [
         "javascript",
         "typescript"
-      ]
+    ],
+    "editor.acceptSuggestionOnEnter": "on"
 }

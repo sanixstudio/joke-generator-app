@@ -4,24 +4,20 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js",
+    "start": "npm install && node server.js",
     "dev:test": "nodemon server.js",
     "dev": "open-cli http://localhost:5050 && nodemon ./server.js --ignore ./views",
-    "repo": "open-cli https://github.com/awwmicky/joke-generator-app",
-    "proj": "open-cli https://github.com/awwmicky/joke-generator-app/projects",
+    "repo": "open-cli https://github.com/sanixstudio/joke-generator-app",
     "live": "echo \"work in progress\""
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/awwmicky/joke-generator-app.git"
+    "url": "https://github.com/sanixstudio/joke-generator-app.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/awwmicky/joke-generator-app/issues"
-  },
-  "homepage": "https://github.com/awwmicky/joke-generator-app#readme",
+  "homepage": "https://github.com/sanixstudio/joke-generator-app.git#readme",
   "dependencies": {
     "axios": "^0.21.0",
     "connect-livereload": "^0.6.1",
