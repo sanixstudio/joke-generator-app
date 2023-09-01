@@ -44,7 +44,6 @@ function fetchJoke() {
   axios
     .get("./api/joke")
     .then((res) => {
-      console.log(res.data);
       savedJokes.push(res.data);
       count = savedJokes.length - 1;
       if (count === 0) {

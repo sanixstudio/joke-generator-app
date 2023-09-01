@@ -128,10 +128,23 @@
     <script src="./assets/app.js"></script>
     <script>
       const switchBtn = document.querySelector("#switchBtn");
+      const body = document.body;
+      const isDarkMode = localStorage.getItem("darkMode");
+
+      // Set initial dark mode state
+      if (isDarkMode === "on") {
+        body.classList.add("dark-mode");
+        switchBtn.checked = true;
+      }
+
       switchBtn.addEventListener("click", () => {
-        switchBtn.checked
-          ? (document.body.style.backgroundColor = "#212121")
-          : (document.body.style.backgroundColor = "#fff");
+        if (switchBtn.checked) {
+          body.classList.add("dark-mode");
+          localStorage.setItem("darkMode", "on");
+        } else {
+          body.classList.remove("dark-mode");
+          localStorage.setItem("darkMode", "off");
+        }
       });
     </script>
   </body>

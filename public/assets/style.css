@@ -5,6 +5,11 @@ body {
     transition: ease-in .2s;
 }
 
+.dark-mode {
+    background-color: #333;
+    color: #f0f0f0;
+  }
+
 h1 {
     font-size: 48px;
     font-weight: bold;
