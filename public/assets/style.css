@@ -40,6 +40,20 @@ main {
     min-height: 300px;
     align-items: center;
     justify-content: center;
+    border-radius: 30px;
+}
+
+.controls-row {
+    margin-top: 2em;
+    border-radius: 30px;
+}
+
+.button {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .controls {
@@ -51,10 +65,6 @@ main {
     align-items: center;
     justify-content: center;
     transition: background .2s;
-}
-
-.controls:first-child {
-    transform: rotate(180deg);
 }
 
 .controls:not(:nth-child(2)):hover {
